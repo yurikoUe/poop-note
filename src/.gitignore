@@ -1,0 +1,36 @@
+# Laravel
+/vendor/
+/node_modules/
+/public/storage
+/public/hot
+/public/build
+/storage/*.key
+/storage/framework/
+/storage/logs/
+.env
+.env.*
+.phpunit.result.cache
+.phpunit.cache
+
+# Composer
+/auth.json
+
+# NPM/Yarn
+/npm-debug.log
+/yarn-error.log
+
+# IDE/Editor
+/.idea/
+/.vscode/
+/.fleet/
+/.nova/
+/.zed/
+/.phpactor.json
+
+# Laravel Homestead（Docker利用なら不要だが念のため）
+Homestead.json
+Homestead.yaml
+
+# Docker runtime（必要に応じて）
+docker/mysql/data/
+docker/nginx/cache/
